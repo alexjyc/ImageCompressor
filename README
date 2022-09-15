@@ -1,0 +1,60 @@
+----------------------------------------------------------------------
+|                 COMP 40 HOMEWORK 4: Arith                          |
+| Alex Jeon (yjeon02)                                                |
+| Nick Doan (hdoan02)                                                |
+| March 9th, 2022                                                    |
+----------------------------------------------------------------------
+
+Architecture
+- 40image.c
+  This is a file where it takes an option to  -c (for compress) or -d 
+  (for decompress) and also the name of the file to compress or decompress.
+- a2blocked.c
+  This is a file where it defines a private version of each function in 
+  A2Methods_T that we implement
+- a2plain.c
+  This is a file where it defines a private version of each function in 
+  A2Methods_T that we implement
+- bitpack.c
+  This is a file where it packs, unpacks, and changes bit structure of 64 bit
+  word.
+- compress40.c
+  This is a file where it has compress40 and decompress function is implemented
+- formulas.c
+  This is a file where it has implemantation of all the math function that
+  used for the compression and the decompression.
+- formulas.h
+  The interface of formulas class
+- io.c
+  This is a file where it
+- io.h
+  The interface of io class
+- ppmdiff.c
+  This is a file where it open the file and check the difference between the
+  two ppm images.
+- transform.c
+  This is a file where it implements the function that used to compression and
+  decompression of images.
+- transform.h
+  The interface of transform class
+- uarray2.c
+  This is a file where it implements uarray2 function
+- uarray2.h
+  The interface of uarray2 class
+- uarray2b.c
+  This is a file where it implements uarray2b function
+- uarray2b.h
+  The interface of uarray2b class
+  
+
+Acknowledges
+- We got help from many ta including Delon, Alan, Zack, and Mary.
+
+Implementation
+- We think all part of our function implemented correctly.
+
+How many hours you have spent analyzing the problems posed in the assignment
+- 8h
+
+How many hours you have spent solving the problems after your analysis
+- 9h
